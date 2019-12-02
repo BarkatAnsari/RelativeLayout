@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/hello">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/kotlin"
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signin"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/cn"
+        ></Button>
+            <TextView
+        android:id="@+id/bk"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Barkat!" />
+
+    <TextView
+        android:id="@+id/hamza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Hello Hamza!" />
+
+    <TextView
+        android:id="@+id/kotlin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Kotlin!" />
+
+    <TextView
+        android:id="@+id/suleman"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Sir Suleman!" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Hello World!" />
+    <Button
+        android:id="@+id/btn_bk"
+        android:textColor="@color/colorAccent"
+        android:text="Bk"
+        android:background="#959595"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bk"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hamza"
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@id/hamza">
+
+    </Button>
+
+</RelativeLayout>
